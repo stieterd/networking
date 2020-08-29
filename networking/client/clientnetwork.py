@@ -12,8 +12,8 @@ class MyClient:
 	def __init__(self):
 
 		self.serverPort = classes.serverPort
-		self.serverIp = "tcp://2.tcp.ngrok.io"
-		#self.serverIp = ""
+		#self.serverIp = "tcp://2.tcp.ngrok.io"
+		self.serverIp = ""
 
 
 		self.client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
